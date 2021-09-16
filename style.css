@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* intestazione */
+.head{
+    background-color: #e579e6;
+    height: 142px;
+    margin: 30px 10%;
+}
+
+/* primo blocco */
+.block_a{
+    background-color:#e1d67a;
+    height: 500px;
+    margin: 0 10% 30px;
+}
+
+/* secondo blocco */
+.block_b{
+    background-color:#abcfe7;
+    margin: 0 10%;
+}
+
+.block_b::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title{
+    height: 100px;
+    border-color: #0086ff;
+}
+
+.column{ 
+    height: 400px;
+    border: solid 20px;
+    border-color: #0086ff;
+    float: left;
+}
+
+#first{
+    border-right: 0;
+    border-left:0;
+    width: 25%;
+}
+
+#second{   
+    height: 400px;
+    width: 50%;
+}
+
+#third{   
+    width: 25%;
+    border-right: 0;
+    border-left:0;
+}
+
+/* footer */
+footer{
+    background-color: #8801fe;
+    height: 100px;
+    margin: 15px 10% 50px;
+}
