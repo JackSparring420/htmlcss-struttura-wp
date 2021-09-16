@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 23px;
+}
+
+/* intestazione */
+.head{
+    margin: 30px 10%;
+}
+
+.menu{
+    margin: 40px 0;
+}
+
+.link_menu{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* primo blocco */
+.block_a{
+    background-image: url(img/meditazione.png);
+    background-size: cover;
+    background-color:#e1d67a;
+    height: 500px;
+    margin: 0 10% 30px;
+    border-radius: 10px;
+}
+
+/* secondo blocco */
+h1{
+    color: black;
+    font-size: 50px;
+}
+
+
+.block_b{
+    margin: 0 10%;
+}
+
+.block_b::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+ /* colonne */
+
+ .titoletto{
+     color: black;
+     padding: 20px 0;
+ }
+
+.column{ 
+    border: solid 20px;
+    border-color: white;
+    float: left;
+}
+
+#first{
+    border-right: 0;
+    border-left:0;
+    width: 25%;
+}
+
+#second{   
+    width: 50%;
+}
+
+#third{   
+    width: 25%;
+    border-right: 0;
+    border-left:0;
+}
+
+.img_l{
+    background-image: url(img/1.bmp);
+    background-size: cover;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.img_2{
+    background-image: url(img/2.bmp);
+    background-size: cover;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.img_3{
+    background-image: url(img/3.bmp);
+    background-size: cover;
+    height: 280px;
+    border-radius: 15px;
+}
+
+
+
+
+/* footer */
+footer{
+    margin: 15px 10%;
+    text-align: center;
+    color:black
+}
+
+#heart{
+    color: red;
+}
